@@ -1,0 +1,26 @@
+[
+  {
+    "title": "FairBnb",
+    "url": "https://fairbnb.coop",
+    "description": "Co-founded by FairBnb",
+    "image": "images/supporters/fairbnb.png"
+  },
+  {
+    "title": "Pavilion",
+    "url": "https://thepavilion.io",
+    "description": "Co-founded by Pavilion",
+    "image": "images/supporters/pavilion.png"
+  },
+  {
+    "title": "Resonate",
+    "url": "https://resonate.coop",
+    "description": "Co-founded by Resonate",
+    "image": "images/supporters/resonate.png"
+  },
+  {
+    "title": "Supported by ESSIF Lab",
+    "url": "https://essif-lab.eu/",
+    "description": "Supported by ESSIF Lab",
+    "image": "images/supporters/essif-lab.png"
+  }
+]

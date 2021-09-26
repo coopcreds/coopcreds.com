@@ -4630,14 +4630,14 @@ ol {
   text-align: center; }
   .feature .feature-image {
     flex: 0 0 auto;
-    width: 80px;
-    height: 80px;
+    height: 50px;
     display: flex;
-    margin-bottom: 20px;
+    margin: 10px 20px;
     text-align: center; }
   .feature img {
-    width: 100%;
-    height: auto; }
+    max-width: 100%;
+    max-height: 50px;
+    object-fit: contain; }
   .feature .feature-content {
     margin-bottom: 0;
     margin-top: auto; }
