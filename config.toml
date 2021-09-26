@@ -1,4 +1,4 @@
-baseURL = "coopcreds.com"
+baseURL = "https://coopcreds.com"
 languageCode = "en-us"
 title = "Co-op Credentials"
 themesDir = "themes"
