@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Co-op Credentials</title>
-    <link>coopcreds.com/categories/</link>
+    <link>https://coopcreds.com/categories/</link>
     <description>Recent content in Categories on Co-op Credentials</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="coopcreds.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://coopcreds.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
