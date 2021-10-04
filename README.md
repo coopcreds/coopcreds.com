@@ -1,6 +1,8 @@
 # coopcreds.com
 
-coopcreds.com is a Hugo site deployed on the same ubuntu server as community.coopcreds.com, a standard Discourse Docker installation. There's an external nginx (external to the Discourse docker image) running that handles requests for both coopcreds.com and community.coopcreds.com. There's also a dockerized postfix server handling inbound email (see below).
+[``coopcreds.com``](https://coopcreds.com) is a [Hugo](https://gohugo.io/) site deployed on the same server as [``community.coopcreds.com``](https://community.coopcreds.com), a standard [Discourse Docker](https://github.com/discourse/discourse_docker) installation.
+
+The server has an external nginx (external to the Discourse docker image) which handles requests for both ``coopcreds.com`` and ``community.coopcreds.com.`` There's also a dockerized postfix server handling inbound email (see below).
 
 ## Updating coopcreds.com
 
