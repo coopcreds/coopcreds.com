@@ -4,14 +4,14 @@ description: "Explaining what Co-op Credentials are."
 featured: true
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
-excerpt: A common co-operative membership implemented through Verifiable Credentials and co-founded by FairBnB, Pavilion and Resonate.
+excerpt: A common co-operative membership implemented through Verifiable Credentials and co-founded by FairBnB.coop, Pavilion and Resonate.
 weight: 1
 ---
 
 ## A Partnership of Co-operatives
 |  |  |
 |--|:--:|
-| Co-op Credentials is a common co-operative membership implemented through [Verifiable Credentials](/verifiable-credentials) and co-founded by three platform co-operatives: [FairBnB](https://fairbnb.coop), a sustainable vacation rental platform, [Pavilion](https://thepavilion.io), a software provider for online communities and [Resonate](https://resonate.coop), a community-owned music network. | {{<figure src="/images/supporters/fairbnb.png" link="https://fairbnb.coop" class="logo">}}{{<figure src="/images/supporters/pavilion.png" link="https://thepavilion.io" class="logo">}}{{<figure src="/images/supporters/resonate.png" link="https://resonate.coop" class="logo">}} |
+| Co-op Credentials is a common co-operative membership implemented through [Verifiable Credentials](/verifiable-credentials) and co-founded by three platform co-operatives: [FairBnB.coop](https://fairbnb.coop), a sustainable vacation rental platform, [Pavilion](https://thepavilion.io), a software provider for online communities and [Resonate](https://resonate.coop), a community-owned music network. | {{<figure src="/images/supporters/fairbnb.png" link="https://fairbnb.coop" class="logo">}}{{<figure src="/images/supporters/pavilion.png" link="https://thepavilion.io" class="logo">}}{{<figure src="/images/supporters/resonate.png" link="https://resonate.coop" class="logo">}} |
 
 ## Proving a Use Case
 |  |  |
