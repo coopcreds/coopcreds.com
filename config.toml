@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Co-op Credentials"
 themesDir = "themes"
 theme = "hugo-serif-theme"
-publishdir = "docs"
 
 [module]
   [module.hugoVersion]
