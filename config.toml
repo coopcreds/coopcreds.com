@@ -39,17 +39,17 @@ publishdir = "docs"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "What is this?"
-    url = "/what-is-this/"
+    name = "Co-op Credentials"
+    url = "/coop-credentials/"
       weight = 1
 
   [[menu.main]]
-      name = "Who is involved?"
-      url = "/who-is-involved/"
+      name = "Verifiable Credentials"
+      url = "/verifiable-credentials/"
       weight = 2
 
   [[menu.main]]
-      name = "How to participate"
+      name = "How to Participate"
       url = "/how-to-participate/"
       weight = 3
 

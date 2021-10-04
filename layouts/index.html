@@ -1,0 +1,60 @@
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "main" }}
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ .Content }}
+        {{ if .Site.Params.homepage.show_contact_box }}
+          {{ partial "call.html" (dict "site" .Site "context" . "show_button" "true") }}
+        {{ end }}
+      </div>
+      {{ if .Params.intro_image }}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ .Title }} class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}" src="{{ .Params.intro_image | relURL }}" />
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {{ $featured := where .Pages ".Params.featured" true }}
+      {{ range first 6 (sort $featured ".Params.weight") }}
+        <div class="col-12 col-md-4 mb-1">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p>{{ .Params.excerpt }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{if .Site.Data.supporters}}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+      {{ range .Site.Data.supporters }}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <a class="feature" href="{{ .Url }}">
+          {{ if .image }}
+            <div class="feature-image"><img alt="{{ .Title }} logo" src="{{ .image | relURL }}" /></div>
+          {{ end }}
+          <div class="feature-content">
+            <p>{{ .description }}</p>
+          </div>
+        </a>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>
+{{end}}
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}

@@ -1,12 +1,12 @@
 ---
-title: 'Homepage'
+title: 'Home'
 meta_title: 'Co-op Credentials'
-description: "Co-operative credentials to bring co-ops closer together."
+description: "Credentials to bring co-ops closer together."
 intro_image: "images/illustrations/homepage.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# A passport for co-operatives.
+# Common Co-operative Membership.
 
-We're a group of co-operatives working on a digital passport for co-operative membership and services.
+We're a group of co-operatives working on common co-operative membership using [verifiable credentials](/verifiable-credentials).
