@@ -40,25 +40,55 @@ theme = "hugo-serif-theme"
   [[menu.main]]
     name = "Co-op Credentials"
     url = "/coop-credentials/"
-      weight = 1
+    weight = 1
 
   [[menu.main]]
-      name = "Verifiable Credentials"
-      url = "/verifiable-credentials/"
-      weight = 2
+    name = "Verifiable Credentials"
+    url = "/verifiable-credentials/"
+    weight = 2
 
   [[menu.main]]
-      name = "Contact"
-      url = "/contact/"
-      weight = 4
+    name = "What We're Doing"
+    url = "/what-we-are-doing/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Forum"
+    url = "https://community.coopcreds.com"
+    weight = 5
 
   # Footer Menu
   [[menu.footer]]
     name = "Home"
     url = "/"
-      weight = 1
+    weight = 1
+  
+  [[menu.footer]]
+    name = "Co-op Credentials"
+    url = "/coop-credentials/"
+    weight = 2
+
+  [[menu.footer]]
+    name = "Verifiable Credentials"
+    url = "/verifiable-credentials/"
+    weight = 3
+
+  [[menu.footer]]
+    name = "What We're Doing"
+    url = "/what-we-are-doing/"
+    weight = 4
 
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-      weight = 2
+    weight = 5
+
+  [[menu.footer]]
+    name = "Forum"
+    url = "https://community.coopcreds.com"
+    weight = 6

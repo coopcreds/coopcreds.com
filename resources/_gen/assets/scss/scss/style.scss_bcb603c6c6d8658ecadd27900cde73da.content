@@ -4481,26 +4481,34 @@ ol {
       vertical-align: top;
       color: #5C5A5A;
       font-family: Helvetica, Arial, sans-serif, -apple-system; }
-    .content table td img {
+    .content table td:first-of-type figure {
+      position: relative;
+      margin: 2em 8em 0 0;
+      padding: 1em;
+      display: inline-flex;
+      align-items: center; }
+    .content table td:last-of-type img {
       margin: 0;
       transform: translateY(-40px); }
-    .content table td figure {
+    .content table td:last-of-type figure {
       margin-left: 5em; }
-      .content table td figure.logo img {
+      .content table td:last-of-type figure.logo img {
         height: 50px;
         margin-bottom: 1em; }
   .content blockquote {
     padding: 0 1em;
     color: #5C5A5A;
     border-left: 0.25em solid #f88379; }
-  .content figure.cta a {
-    border: 2px solid #689074;
-    padding: 1em;
-    display: inline-flex;
-    align-items: center; }
-    .content figure.cta a img {
-      margin: 0 0.5em 0 0; }
-    .content figure.cta a h4 {
+  .content figure.cta {
+    border: 2px solid #689074; }
+    .content figure.cta a {
+      padding: 1em;
+      display: inline-flex;
+      align-items: center;
+      width: 100%; }
+    .content figure.cta img {
+      margin: 0 1em 0 0; }
+    .content figure.cta h4 {
       margin-bottom: 0; }
   .content figure.cta.top {
     position: absolute;
@@ -4511,7 +4519,13 @@ ol {
       position: relative;
       top: unset;
       right: unset;
-      margin: 0; } }
+      margin: 0; }
+    .content table td:first-of-type figure {
+      position: relative;
+      margin: 2em 0 0 0;
+      padding: .75em;
+      display: flex;
+      align-items: center; } }
 @media (max-width: 767.98px) {
   .content tr {
     display: flex;
@@ -4524,11 +4538,12 @@ ol {
   .content table td figure,
   .content table td img {
     margin-top: 2em;
-    margin-left: 0; }
+    margin-left: 0 !important;
+    transform: unset !important; }
+  .content table td:last-of-type figure {
+    display: none; }
   .content table {
-    margin-bottom: 2em; }
-  figure.cta h4 {
-    font-size: .75em; } }
+    margin-bottom: 2em; } }
 
 .intro {
   display: flex;

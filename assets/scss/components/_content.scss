@@ -78,12 +78,20 @@
       color: $steel;
       font-family: $font-family-base;
     }
-    td img {
+    td:first-of-type figure {
+      position: relative;
+      margin: 2em 8em 0 0;
+      padding: 1em;
+      display: inline-flex;
+      align-items: center;
+    }
+    td:last-of-type img {
       margin: 0;
       transform: translateY(-40px);
     }
-    td figure {
+    td:last-of-type figure {
       margin-left: 5em;
+
       &.logo img {
         height: 50px;
         margin-bottom: 1em;
@@ -95,13 +103,16 @@
     color: $steel;
     border-left: .25em solid $secondary;
   }
-  figure.cta a {
+  figure.cta {
     border: 2px solid $primary;
-    padding: 1em;
-    display: inline-flex;
-    align-items: center;
+    a {
+      padding: 1em;
+      display: inline-flex;
+      align-items: center;
+      width: 100%;
+    }
     img {
-      margin: 0 0.5em 0 0;
+      margin: 0 1em 0 0;
     }
     h4 {
       margin-bottom: 0;
@@ -118,6 +129,13 @@
       top: unset;
       right: unset;
       margin: 0;
+    }
+    table td:first-of-type figure {
+      position: relative;
+      margin: 2em 0 0 0;
+      padding: .75em;
+      display: flex;
+      align-items: center;
     }
   }
 }
@@ -137,12 +155,13 @@
   .content table td figure,
   .content table td img {
     margin-top: 2em;
-    margin-left: 0;
+    margin-left: 0 !important;
+    transform: unset !important;
+  }
+  .content table td:last-of-type figure {
+    display: none;
   }
   .content table {
     margin-bottom: 2em;
-  }
-  figure.cta h4 {
-    font-size: .75em;
   }
 }
