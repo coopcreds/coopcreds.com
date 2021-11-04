@@ -3,7 +3,7 @@ title: "Verifiable Credentials"
 date: 2021-09-26T12:33:46+10:00
 draft: false
 featured: true
-excerpt: A digital credential stored in a digital wallet. Like a physical credential, such as a drivers licence, or a university degree, you can use it to prove something.
+description: A digital credential stored in a digital wallet. Like a physical credential, such as a drivers licence, or a university degree, you can use it to prove something.
 weight: 5
 ---
 [{{<figure src="/images/logo/w3c.svg" height="40" width="40" class="cta top" title="The W3C Verifiable Credentials Standard">}}](https://www.w3.org/TR/vc-data-model/)

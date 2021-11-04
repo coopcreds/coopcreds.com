@@ -3,7 +3,7 @@ title: "Ecosystem Models"
 date: 2021-09-26T12:33:46+10:00
 draft: false
 featured: true
-excerpt: A summary of proposed models for the Co-operative Credentials Ecosystem
+description: A summary of proposed models for the Co-operative Credentials Ecosystem
 weight: 6
 ---
 There are multiple ways a Co-operative Credentials Ecosystem could work. These are the models that have been proposed.

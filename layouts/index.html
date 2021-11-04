@@ -26,7 +26,7 @@
       {{ range first 6 (sort $featured ".Params.weight") }}
         <div class="col-12 col-md-4 mb-1">
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-          <p>{{ .Params.excerpt }}</p>
+          <p>{{ .Params.description }}</p>
         </div>
       {{ end }}
     </div>

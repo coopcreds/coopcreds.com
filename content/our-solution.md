@@ -4,7 +4,7 @@ description: "Explaining our solution: Co-op Credentials."
 featured: true
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
-excerpt: Our solution to the problems we've identified. A common co-operative membership implemented through Verifiable Credentials.
+description: Our solution to the problems we've identified. A common co-operative membership implemented through Verifiable Credentials.
 weight: 2
 ---
 

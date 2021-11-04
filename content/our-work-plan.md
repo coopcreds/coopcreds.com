@@ -3,7 +3,7 @@ title: "Our Work Plan"
 date: 2021-09-26T12:33:46+10:00
 draft: false
 featured: true
-excerpt: An overview of our work-plan for the next eight months, the role of NGI ESSIF-Lab, and how you can get involved at each phase of the work.
+description: An overview of our work-plan for the next eight months, the role of NGI ESSIF-Lab, and how you can get involved at each phase of the work.
 weight: 3
 ---
 There are three phases for our work plan for the next eight months. This period coincides with our participation in the [NGI ESSIF-Lab Second Business-oriented Open Call](https://essif-lab.eu/open-calls/) (BOC2). Our focus is on proving the concept of Co-operative Credentials via our BOC2 project "Stay Fair Play Fair". At the end of this work plan we're aiming to have the first working implementation of Co-operative Credentials.

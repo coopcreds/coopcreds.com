@@ -3,7 +3,7 @@ title: "Our Problems"
 date: 2021-09-26T12:33:46+10:00
 draft: false
 featured: true
-excerpt: An overview of the three inter-connected problems we're trying to address.
+description: An overview of the three inter-connected problems we're trying to address.
 weight: 1
 ---
 All Co-operatives are governed by the [Co-operative Principles](https://www.ica.coop/en/cooperatives/cooperative-identity), a set of interrelated statements about what it means to be a co-operative. Each Co-operative approaches the implementation of these principles in its own way, however some, such as Principle 6 "Co-operation among Co-operatives", requires a degree of standardisation between Co-operatives, particularly those that are inherently online, such as [Platform Co-operatives](https://platform.coop/). To make Principle 6 a reality, and to grow the co-operative sector as a whole, the connections between Co-operatives need to be both efficient and focused on mutual value-creation.
