@@ -1,9 +1,9 @@
 ---
-title: "Our Problems"
+title: "The Problem"
 date: 2021-09-26T12:33:46+10:00
 draft: false
 featured: true
-description: An overview of the three inter-connected problems we're trying to address.
+description: An overview of the three problems we're trying to address.
 weight: 1
 ---
 All Co-operatives are governed by the [Co-operative Principles](https://www.ica.coop/en/cooperatives/cooperative-identity), a set of interrelated statements about what it means to be a co-operative. Each Co-operative approaches the implementation of these principles in its own way, however some, such as Principle 6 "Co-operation among Co-operatives", requires a degree of standardisation between Co-operatives, particularly those that are inherently online, such as [Platform Co-operatives](https://platform.coop/). To make Principle 6 a reality, and to grow the co-operative sector as a whole, the connections between Co-operatives need to be both efficient and focused on mutual value-creation.
@@ -16,7 +16,7 @@ All Co-operatives are governed by the [Co-operative Principles](https://www.ica.
 ## Cross-Selling Between Co-operatives
 |  |  |
 |--|:--:|
-| Co-operatives compete alongside corporations in the markets where they sell their products and services. Co-operatives often use their organisational structure as a unique value proposition within their markets. Consumers of our products and services, who are sometimes also our members, are attracted by their alignment with our missions. This ethical appeal has significant potential across the co-operative sector as a whole. Someone who is interested in ethical music streaming (Resonate) is often also interested in ethical accomodation (FairBnB.coop) and ethical software (Pavilion). While cross-selling on an ethical basis exists in various forms, there are no co-operative-specific approaches to cross-selling.| {{<figure src="/images/illustrations/cross-selling.svg">}} |
+| Co-operatives compete alongside corporations in the markets where they sell their products and services. Co-operatives often use their organisational structure as a unique value proposition within their markets. Consumers of our products and services, who are sometimes also our members, are attracted by their alignment with our missions. This ethical appeal has significant potential across the co-operative sector as a whole. Someone who is interested in ethical music streaming (Resonate) is often also interested in ethical accomodation (FairBnB.coop) and ethical software (Pavilion). While cross-selling on an ethical basis exists in various forms, it is under-utilised by co-operatives.| {{<figure src="/images/illustrations/cross-selling.svg">}} |
 
 ## De-centralised Identity Management
 |  |  |

@@ -41,8 +41,8 @@ theme = "hugo-serif-theme"
   # Main Menu
 
   [[menu.main]]
-    name = "Our Problems"
-    url = "/our-problems/"
+    name = "The Problem"
+    url = "/the-problem/"
     weight = 1
 
   [[menu.main]]
