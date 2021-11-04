@@ -18,7 +18,7 @@ In response to the three interconnected problems described in [Problems We're Ta
 ## Proving a Use Case
 |  |  |
 |--|:--:|
-| The first eight months of our partnership is being supported by [NGI ESSIF-Lab](https://essif-lab.eu/) to test a use case for [Verifiable Credentials](/verifiable-credentials) focused on community-powered independent music micro-touring and tourism. We call this test case “Stay Fair, Play Fair”, and our credential the "Co-op Credential". At the end of our current work plan we aim to have a working prototype of co-op credentials demonstrating a use case. [{{<figure src="/images/icons/red-circle.png" title="Read our work plan" class="cta" target="_blank">}}](/what-we-are-doing) | {{<figure src="/images/illustrations/stayfairplayfair.svg">}} |
+| The first eight months of our partnership is being supported by [NGI ESSIF-Lab](https://essif-lab.eu/) to test a use case for [Verifiable Credentials](/verifiable-credentials) focused on community-powered independent music micro-touring and tourism. We call this test case “Stay Fair, Play Fair”, and our credential the "Co-op Credential". At the end of our current work plan we aim to have a working prototype of co-op credentials demonstrating a use case. We will use existing verifiable credentials solutions, including our [Discourse Verifiable Credentials plugin](https://github.com/coopcreds/discourse-verifiable-credentials). [{{<figure src="/images/icons/red-circle.png" title="Read our work plan" class="cta" target="_blank">}}](/what-we-are-doing) | {{<figure src="/images/illustrations/stayfairplayfair.svg">}} |
 
 ## Establishing a Standard
 |  |  |
