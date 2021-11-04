@@ -33,12 +33,12 @@ git push production main
 
 ## Handling email
 
-There's a postfix server running in the container ``mail-receiver``. It handles both incoming mail for Discourse (i.e. ``community.coopcreds.com``) and email forwarding for some ``alias@coopcreds.com`` addresses. 
+There's a postfix server running in the container ``mail-receiver`` on the production server. It handles both incoming mail for Discourse (i.e. ``community.coopcreds.com``) and email forwarding for ``alias@coopcreds.com`` addresses. 
 
 
 ### Add an alias
 
-New ``alias@coopcreds.com`` addresses can be added as follows.
+New ``alias@coopcreds.com`` addresses can be added as follows. All commands must be run on the production server.
 
 First, add the mapping to the [virtual alias map](http://www.postfix.org/postconf.5.html#virtual_alias_maps)
 
