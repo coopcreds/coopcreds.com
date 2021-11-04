@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="500px" viewBox="0 0 600 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>industry-body</title>
+    <g id="industry-body" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(31.000000, 33.000000)">
+            <g id="Group-2" transform="translate(31.000000, 51.000000)">
+                <rect id="Rectangle" stroke="#646363" stroke-width="2" x="0" y="0" width="150" height="100" rx="8"></rect>
+                <text id="Industry-Body" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                    <tspan x="14.3982222" y="56">Industry Body</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" stroke="#646363" stroke-width="2" x="31" y="283" width="150" height="100" rx="8"></rect>
+            <text id="Technology-Provider" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                <tspan x="56.3715556" y="329">Technology</tspan>
+                <tspan x="69.7244444" y="348">Provider</tspan>
+            </text>
+            <path id="Line-3" d="M214.105238,350.897343 L212.922,356.779 L383.197141,391.019625 L384.177516,391.216765 L383.783235,393.177516 L382.802859,392.980375 L212.528,358.74 L211.345268,364.622596 L199,355 L214.105238,350.897343 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line-3" d="M388.329186,225.624632 L389.375368,227.329186 L388.523091,227.852277 L211.455,336.528 L214.593513,341.64267 L199,343 L207.270244,329.710791 L210.409,334.824 L387.476909,226.147723 L388.329186,225.624632 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line-3" d="M396.767981,54.604949 L398.395051,55.767981 L397.813535,56.581516 L207.954,322.192 L212.835969,325.681122 L199,333 L201.446479,317.539898 L206.327,321.028 L396.186465,55.418484 L396.767981,54.604949 Z" fill="#979797" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(405.000000, 1.000000)">
+                <rect id="Rectangle" stroke="#646363" stroke-width="2" x="0" y="0" width="120" height="80" rx="8"></rect>
+                <text id="Co-operative" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                    <tspan x="4.68266667" y="44">Co-operative</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(405.000000, 343.000000)">
+                <rect id="Rectangle" stroke="#646363" stroke-width="2" x="0" y="0" width="120" height="80" rx="8"></rect>
+                <text id="Co-operative" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                    <tspan x="4.68266667" y="44">Co-operative</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(405.000000, 172.000000)">
+                <rect id="Rectangle" stroke="#646363" stroke-width="2" x="0" y="0" width="120" height="80" rx="8"></rect>
+                <text id="Co-operative" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                    <tspan x="4.68266667" y="44">Co-operative</tspan>
+                </text>
+            </g>
+            <path id="Line" d="M381.597385,38.2144207 L397,41 L385.529968,51.6507444 L383.844,45.892 L192.280899,101.959737 L191.321161,102.240636 L190.759364,100.321161 L191.719101,100.040263 L383.282,43.972 L381.597385,38.2144207 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line" d="M191.622639,99.6370624 L192.492789,100.129851 L376.31,204.231 L379.267432,199.009917 L388,212 L372.368393,211.192004 L375.325,205.97 L191.507211,101.870149 L190.637062,101.377361 L191.622639,99.6370624 Z" fill="#979797" fill-rule="nonzero"></path>
+            <path id="Line" d="M192.250419,99.6081343 L192.821143,100.429277 L380.831,370.932 L385.757873,367.508942 L388,383 L374.261878,375.499067 L379.188,372.074 L191.178857,101.570723 L190.608134,100.749581 L192.250419,99.6081343 Z" fill="#979797" fill-rule="nonzero"></path>
+            <text id="Issues-&amp;-Verifies" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                <tspan x="221.888889" y="15">Issues &amp; Verifies</tspan>
+            </text>
+            <path id="Line-2" d="M106.5,166.5 L113.432935,180.533332 L107.432,180.504 L106.999989,271.004785 L106.995204,272.004773 L104.995227,271.995204 L105.000011,270.995215 L105.432,180.495 L99.4330952,180.466347 L106.5,166.5 Z" fill="#979797" fill-rule="nonzero"></path>
+            <text id="Supports" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                <tspan x="2.59644444" y="227">Supports </tspan>
+            </text>
+            <text id="Funds-&amp;-Constitutes" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" letter-spacing="0.888888889" fill="#000000">
+                <tspan x="203.371556" y="429">Funds &amp; Constitutes</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(74.000000, 321.000000)"></g>
+    </g>
+</svg>

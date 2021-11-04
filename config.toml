@@ -37,19 +37,20 @@ theme = "hugo-serif-theme"
 
 [menu]
   # Main Menu
+
   [[menu.main]]
-    name = "Co-op Credentials"
-    url = "/coop-credentials/"
+    name = "Our Problems"
+    url = "/our-problems/"
     weight = 1
 
   [[menu.main]]
-    name = "Verifiable Credentials"
-    url = "/verifiable-credentials/"
+    name = "Our Solution"
+    url = "/our-solution/"
     weight = 2
 
   [[menu.main]]
-    name = "What We're Doing"
-    url = "/what-we-are-doing/"
+    name = "Our Work Plan"
+    url = "/our-work-plan/"
     weight = 3
 
   [[menu.main]]
@@ -69,18 +70,18 @@ theme = "hugo-serif-theme"
     weight = 1
   
   [[menu.footer]]
-    name = "Co-op Credentials"
-    url = "/coop-credentials/"
+    name = "Our Problems"
+    url = "/our-problems/"
     weight = 2
 
   [[menu.footer]]
-    name = "Verifiable Credentials"
-    url = "/verifiable-credentials/"
+    name = "Our Solution"
+    url = "/our-solution/"
     weight = 3
 
   [[menu.footer]]
-    name = "What We're Doing"
-    url = "/what-we-are-doing/"
+    name = "Our Work Plan"
+    url = "/our-work-plan/"
     weight = 4
 
   [[menu.footer]]

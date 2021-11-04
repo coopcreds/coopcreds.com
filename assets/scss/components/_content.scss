@@ -15,9 +15,9 @@
   em {
     font-style: italic;
   }
-  p {
+  p,td {
     font-family: $font-family-base;
-    line-height: 1.56;
+    line-height: 1.5em;
     color: $steel;
   }
   h1 {
@@ -73,10 +73,7 @@
     th,
     td {
       width: 400px;
-      line-height: 1.4em;
       vertical-align: top;
-      color: $steel;
-      font-family: $font-family-base;
     }
     td:first-of-type figure {
       position: relative;
