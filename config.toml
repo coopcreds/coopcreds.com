@@ -11,7 +11,7 @@ theme = "hugo-serif-theme"
 
 [params]
   description = 'Credentials to bring co-ops closer together.'
-  images = ["images/logo/coop-logo.png"]
+  image = "images/logo/coop-logo.png"
   title = 'Co-op Credentials'
   google_analytics_id = ""
   google_tag_manager_id = ""

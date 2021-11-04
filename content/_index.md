@@ -1,6 +1,7 @@
 ---
 title: 'Home'
 meta_title: 'Co-op Credentials'
+image: "images/logo/coop-logo.png"
 description: "Credentials to bring co-ops closer together."
 intro_image: "images/illustrations/homepage.svg"
 intro_image_absolute: true
