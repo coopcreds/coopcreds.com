@@ -72,8 +72,8 @@ theme = "hugo-serif-theme"
     weight = 1
   
   [[menu.footer]]
-    name = "Our Problems"
-    url = "/our-problems/"
+    name = "The Problem"
+    url = "/the-problem/"
     weight = 2
 
   [[menu.footer]]
