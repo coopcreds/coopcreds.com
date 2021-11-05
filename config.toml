@@ -56,14 +56,19 @@ theme = "hugo-serif-theme"
     weight = 3
 
   [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 4
+
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     name = "Forum"
     url = "https://community.coopcreds.com"
-    weight = 5
+    weight = 6
 
   # Footer Menu
   [[menu.footer]]
@@ -87,11 +92,16 @@ theme = "hugo-serif-theme"
     weight = 4
 
   [[menu.footer]]
+    name = "News"
+    url = "/news/"
+    weight = 5
+
+  [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
 
   [[menu.footer]]
     name = "Forum"
     url = "https://community.coopcreds.com"
-    weight = 6
+    weight = 7

@@ -1,0 +1,20 @@
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "main" }}
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h1 class="title">{{.Title}}</h1>
+      <div class="post-metadata">
+        {{ $author := index .Site.Data.authors (.Params.author | default "default") }}
+        {{- if $author -}}
+          <h2 class="post-author">{{ $author.name }}</h2>
+          <span class="dot">&middot;</span>
+        {{- end -}}
+        <h2 class="post-date">{{.Date.Format "2006-01-02"}}</h2>
+      </div>
+      <div class="content">{{.Content}}</div>
+    </div>
+  </div>
+</div>
+{{ end }}

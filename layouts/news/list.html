@@ -1,0 +1,27 @@
+{{ define "body_classes" }}page-news-list{{ end }}
+
+{{ define "main" }}
+<div class="container pt-6 pt-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h1 class="title">{{.Title}}</h1>
+      <div class="content">{{.Content}}</div>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-2 pb-md-12">
+  <div class="row">
+    {{ range .Pages }}
+    <div class="col-6 col-md-6 mb-2">
+      <a href="{{.Permalink}}">{{ .Render "summary" }}</a>
+    </div>
+    <div class="col-6 col-md-6 mb-2">
+      <div class="post-list-metadata">
+        <a href="{{.Permalink}}"><h2>{{.Date.Format "2006-01-02"}}</h2></a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
