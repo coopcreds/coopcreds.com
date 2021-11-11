@@ -1,12 +1,14 @@
 ---
-title: "The Problem"
+title: "The Problems"
 date: 2021-09-26T12:33:46+10:00
 draft: false
 featured: true
-description: An overview of the problem we're trying to address, drawing from the experiences of FairBnB.coop, Resonate and Pavilion.
+description: An overview of the problems we're trying to address, drawing from the experiences of FairBnB.coop, Resonate and Pavilion.
 weight: 1
 ---
 All Co-operatives are governed by the [Co-operative Principles](https://www.ica.coop/en/cooperatives/cooperative-identity), a set of interrelated statements about what it means to be a co-operative. Each Co-operative approaches the implementation of these principles in its own way, however some, such as Principle 6 "Co-operation among Co-operatives", requires a degree of standardisation between Co-operatives, particularly those that are inherently online, such as [Platform Co-operatives](https://platform.coop/). To make Principle 6 a reality, and to grow the co-operative sector as a whole, the connections between Co-operatives need to be both efficient and focused on mutual value-creation.
+
+[{{<figure src="/images/icons/red-circle.png" title="Discuss these problems on our forum" class="cta top" target="_blank">}}](https://community.coopcreds.com/c/problems)
 
 ## Know Your Co-operator
 |  |  |
@@ -22,3 +24,5 @@ All Co-operatives are governed by the [Co-operative Principles](https://www.ica.
 |  |  |
 |--|:--:|
 | Co-operatives are designed to be de-centralised and are typically focused on empowering labour over capital. Significant parts of the internet and its associated technology are dominated by a handful of large centralised capital-driven corporations. Most co-operatives try to use de-centralised technology solutions, however this is particularly difficult to do when it comes to identity management. Online identity management is currently dominated by centralised services provided by corporations such as Facebook and Google.| {{<figure src="/images/illustrations/identity.svg">}} |
+
+[{{<figure src="/images/icons/red-circle.png" title="Discuss these problems on our forum" class="cta" target="_blank">}}](https://community.coopcreds.com/c/problems)

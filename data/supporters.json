@@ -22,5 +22,11 @@
     "url": "https://essif-lab.eu/",
     "description": "Supported by ESSIF Lab",
     "image": "images/supporters/essif-lab.png"
+  },
+  {
+    "title": "You?",
+    "url": "/contact",
+    "description": "Contact us about supporting the project",
+    "image": "images/supporters/you.png"
   }
 ]

@@ -78,7 +78,7 @@
     td:first-of-type figure {
       position: relative;
       margin: 2em 8em 0 0;
-      padding: 1em;
+      padding: .75em 1em;
       display: inline-flex;
       align-items: center;
     }
@@ -103,7 +103,7 @@
   figure.cta {
     border: 2px solid $primary;
     a {
-      padding: 1em;
+      padding: .75em 1em;
       display: inline-flex;
       align-items: center;
       width: 100%;
@@ -117,8 +117,16 @@
   }
   figure.cta.top {
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 1.5em;
+  }
+  > figure.cta {
+    max-width: 500px;
+    display: inline-block;
+
+    &.top a {
+      padding: .75em;
+    }
   }
   @include media-breakpoint-down(lg) {
     figure.cta.top {
