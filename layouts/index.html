@@ -41,7 +41,7 @@
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <a class="feature" href="{{ .url }}">
           {{ if .image }}
-            <div class="feature-image"><img alt="{{ .title }} logo" src="{{ .image | relURL }}" /></div>
+            <div class="feature-image {{ if .square }}square{{ end }}"><img alt="{{ .title }} logo" src="{{ .image | relURL }}" /></div>
           {{ end }}
           <div class="feature-content">
             <p>{{ .description }}</p>

@@ -24,6 +24,20 @@
     "image": "images/supporters/essif-lab.png"
   },
   {
+    "title": "An Áit Eile",
+    "url": "https://www.aae.ie/",
+    "description": "Supported by An Áit Eile",
+    "image": "images/supporters/an-ait-eile.png",
+    "square": true
+  },
+  {
+    "title": "Coop Data Club",
+    "url": "https://coopdata.club/",
+    "description": "Supported by the Coop Data Club",
+    "image": "images/supporters/coop-data-club.png",
+    "square": true
+  },
+  {
     "title": "You?",
     "url": "/contact",
     "description": "Contact us about supporting the project",

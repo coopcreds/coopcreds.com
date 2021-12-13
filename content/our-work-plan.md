@@ -6,7 +6,7 @@ featured: true
 description: An overview of our work-plan for the next eight months, the role of NGI ESSIF-Lab, and how you can get involved at each phase of the work.
 weight: 3
 ---
-There are three phases for our work plan for the next eight months. This period coincides with our participation in the [NGI ESSIF-Lab Second Business-oriented Open Call](https://essif-lab.eu/open-calls/) (BOC2). Our focus is on proving the concept of Co-operative Credentials via our BOC2 project "Stay Fair Play Fair". At the end of this work plan we're aiming to have the first working implementation of Co-operative Credentials.
+There are three phases for our work plan for the next eight months. This period coincides with our participation in the [NGI ESSIF-Lab Second Business-oriented Open Call](https://essif-lab.eu/open-calls/) (BOC2). At the end of this work plan we're aiming to have a working implementation of Co-operative Credentials live in 3 to 5 use cases.
 
 ## Consultation - October 2021 to December 2021
 |  |  |
@@ -16,7 +16,7 @@ There are three phases for our work plan for the next eight months. This period 
 ## Definition - December 2021 to January 2021
 |  |  |
 |--|:--:|
-| We're aiming to release the first draft definition of a co-operative credential by January 2021. We'll be looking to use this credential in our "Stay Fair Play Fair" proof of concept. The goal is to have sufficient input from the relevant stakeholders in the consultation phase to be able to release v0.1 of the credential for trial use. The definition phase will also involve a determination of the initial issuer and verifier of the co-operative credential, aka the ["Ecosystem Model"](/ecosystem-models) [{{<figure src="/images/icons/purple-square.png" title="Register your interest in participating" class="cta" target="_blank">}}](/contact) | {{<figure src="/images/illustrations/definition.svg">}} |
+| We're aiming to release the first draft definition of a co-operative credential by January 2021. We'll be looking to use this credential in our initial use cases. The goal is to have sufficient input from the relevant stakeholders in the consultation phase to be able to release v0.1 of the credential for trial use. The definition phase will also involve a determination of the initial issuer and verifier of the co-operative credential, aka the ["Ecosystem Model"](/ecosystem-models) [{{<figure src="/images/icons/purple-square.png" title="Register your interest in participating" class="cta" target="_blank">}}](/contact) | {{<figure src="/images/illustrations/definition.svg">}} |
 
 ## Implementation - January 2021 to May 2021
 |  |  |

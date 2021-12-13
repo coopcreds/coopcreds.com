@@ -8,12 +8,19 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   .feature-image {
     flex: 0 0 auto;
     height: 50px;
     display: flex;
     margin: 10px 20px;
     text-align: center;
+    &.square {
+      height: unset;
+      img {
+        max-height: 100px;
+      }
+    }
   }
   img {
     max-width: 100%;
@@ -24,6 +31,5 @@
   }
   .feature-content {
     margin-bottom: 0;
-    margin-top: auto;
   }
 }
