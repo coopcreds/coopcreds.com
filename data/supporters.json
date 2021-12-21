@@ -38,6 +38,13 @@
     "square": true
   },
   {
+    "title": "Equal Care Co-op",
+    "url": "https://www.equalcare.coop/",
+    "description": "Supported by the Equal Care Co-op",
+    "image": "images/supporters/equal-care.png",
+    "square": true
+  },
+  {
     "title": "You?",
     "url": "/contact",
     "description": "Contact us about supporting the project",
