@@ -45,6 +45,20 @@
     "square": true
   },
   {
+    "title": "Coop Tech Hub",
+    "url": "https://www.hub.coop/",
+    "description": "Supported by the Coop Tech Hub",
+    "image": "images/supporters/coop-tech-hub.svg",
+    "square": true
+  },
+  {
+    "title": "Solid Network",
+    "url": "https://www.solidnetwork.ie/",
+    "description": "Supported by the Solid Network",
+    "image": "images/supporters/solid-network.png",
+    "square": true
+  },
+  {
     "title": "You?",
     "url": "/contact",
     "description": "Contact us about supporting the project",
