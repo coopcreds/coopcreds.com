@@ -18,10 +18,16 @@
     "image": "images/supporters/resonate.png"
   },
   {
-    "title": "Supported by ESSIF Lab",
+    "title": "Supported by NGI eSSIF-Lab",
     "url": "https://essif-lab.eu/",
-    "description": "Supported by ESSIF Lab",
+    "description": "Supported by NGI eSSIF-Lab",
     "image": "images/supporters/essif-lab.png"
+  },
+  {
+    "title": "Supported by the Platform Cooperativism Consortium",
+    "url": "https://platform.coop/",
+    "description": "Supported by the Platform Cooperativism Consortium",
+    "image": "images/supporters/pcc.png"
   },
   {
     "title": "An Áit Eile",
