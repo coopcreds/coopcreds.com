@@ -56,11 +56,6 @@ theme = "hugo-serif-theme"
     weight = 3
 
   [[menu.main]]
-    name = "News"
-    url = "/news/"
-    weight = 4
-
-  [[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 5
@@ -90,11 +85,6 @@ theme = "hugo-serif-theme"
     name = "Our Work Plan"
     url = "/our-work-plan/"
     weight = 4
-
-  [[menu.footer]]
-    name = "News"
-    url = "/news/"
-    weight = 5
 
   [[menu.footer]]
     name = "Contact"
