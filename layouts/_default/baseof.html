@@ -36,6 +36,7 @@
     {{ if .Site.Params.seo.meta_twitter_creator }}<meta name="twitter:creator" content="{{ .Site.Params.seo.meta_twitter_creator }}"/>{{ end }}
   {{ end }}
 
+  {{ partial "head.html" . }}
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>

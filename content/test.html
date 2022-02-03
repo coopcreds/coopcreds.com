@@ -1,0 +1,21 @@
+---
+title: "Test Cooperative Credentials"
+jquery: true
+---
+
+<p>You can test out Cooperative Credentials right now! Follow these instructions and you'll be issued a test credential which gives you access to a private category on our forum.</p>
+<ol>
+  <li>Email <a href="mailto:contact@coopcreds.com">contact@coopcreds.com</a> to get added to the test whitelist (you need to be a member of a participating cooperative).</li>
+  <li>Download the MATTR wallet app through the <a href="https://apps.apple.com/us/app/mattr-wallet/id1518660243">iOS App Store</a> or the <a href="https://play.google.com/store/apps/details?id=global.mattr.wallet">Google Play Store</a>.</li>
+  <li>Scan the QR code below with the MATTR wallet app.</li>
+  <li>After a few prompts, you'll be shown a login screen. Sign up with the same email that was added to the whitelist in 1.</li>
+  <li>Once you've got your test credential go to <a href="https://community.coopcreds.com/g/credential_group">the credential group</a> in our forum and click "Verify Credentials".</li>
+</ol>
+<div id="qrcode"></div>
+<script>
+  $('#qrcode').qrcode({
+    width: 200,
+    height: 200,
+    text: "openid://discovery?issuer=https://pavilion-xtwdpb.vii.mattr.global/oidc/v1/issuers/c26f2154-f435-475f-aba6-d66ee7124d0f"
+  });
+</script>
