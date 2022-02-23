@@ -40,15 +40,25 @@
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
-  {{ partial "main-menu-mobile.html" . }}
-  <div class="wrapper">
-    {{ partial "header.html" . }}
-    {{ block "main" . }}
-    {{ end }}
-  </div>
+  {{ if .Params.no_header }}
+    <div class="wrapper">
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+  {{ else }}
+    {{ partial "main-menu-mobile.html" . }}
+    <div class="wrapper">
+      {{ partial "header.html" . }}
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+  {{ end }}
 
-  {{ partial "footer.html" . }}
-  {{ partial "sub-footer.html" . }}
+  {{ if .Params.no_footer }}
+  {{ else }}
+    {{ partial "footer.html" . }}
+    {{ partial "sub-footer.html" . }}
+  {{ end }}
 
   {{ $scripts := resources.Get "js/scripts.js" }}
 
