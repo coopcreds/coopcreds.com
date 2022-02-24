@@ -39,7 +39,7 @@
   {{ partial "head.html" . }}
 </head>
 
-<body class='page {{ block "body_classes" . }}{{ end }}'>
+<body class='page {{ block "body_classes" . }}{{ end }} {{ .Params.classes }}'>
   {{ if .Params.no_header }}
     <div class="wrapper">
       {{ block "main" . }}
