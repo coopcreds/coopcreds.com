@@ -1,0 +1,15 @@
+.main-menu > ul > li > a > span {
+  white-space: nowrap;
+}
+
+.logo {
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
+}
+
+.logo-mobile {
+  @include media-breakpoint-down(lg) {
+    display: block;
+  }
+}

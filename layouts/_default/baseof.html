@@ -48,6 +48,9 @@
   {{ else }}
     {{ partial "main-menu-mobile.html" . }}
     <div class="wrapper">
+      {{ if .Site.Params.banner }}
+        <div class="banner"><span>{{ .Site.Params.banner | safeHTML }}</span></div>
+      {{ end }}
       {{ partial "header.html" . }}
       {{ block "main" . }}
       {{ end }}

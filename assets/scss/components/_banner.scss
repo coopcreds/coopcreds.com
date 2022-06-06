@@ -1,0 +1,42 @@
+.banner {
+  position: fixed;
+  top: 0;
+  background-color: #8F8FEF;
+  color: #ffffff;
+  max-height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 1em;
+
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+
+.banner + .header {
+  margin-top: 50px;
+}
+
+@include media-breakpoint-down(md) {
+  .banner {
+    max-height: 80px;
+  }
+
+  .banner + .header {
+    margin-top: 80px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .banner {
+    max-height: 120px;
+  }
+
+  .banner + .header {
+    margin-top: 120px;
+  }
+}

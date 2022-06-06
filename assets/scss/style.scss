@@ -53,6 +53,8 @@ $sub-footer-text-color: $white;
 @import 'components/social';
 @import 'components/list';
 @import 'components/qrcode';
+@import 'components/overrides';
+@import 'components/banner';
 
 // Pages
 @import 'pages/home';
