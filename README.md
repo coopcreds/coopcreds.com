@@ -12,7 +12,7 @@ The server has an external nginx (external to the Discourse docker image) which 
 
 There's bare clone of this repository on the production server, with a ``post-receive`` hook that will handle the compliation of hugo's static assets. You just need to add the production repository as a remote and push to it. The hook will take care of the rest.
 
-as a remote
+Add it as a remote:
 
 ```
 git remote add production USERNAME@coopcreds:coopcreds.com.git
@@ -33,7 +33,7 @@ git push production main
 
 ## Handling email
 
-There's a postfix server running in the container ``mail-receiver`` on the production server. It handles both incoming mail for Discourse (i.e. ``community.coopcreds.com``) and email forwarding for ``alias@coopcreds.com`` addresses. 
+There's a postfix server running in the container ``mail-receiver`` on the production server. It handles both incoming mail for Discourse (i.e. ``community.coopcreds.com``) and email forwarding for ``alias@coopcreds.com`` addresses.
 
 
 ### Add an alias
