@@ -16,7 +16,7 @@ weight: 5
 ## Verified as Authentic
 |  |  |
 |--|:--:|
-| A verifiable credential is obtained, stored and validated using a computer or smartphone. It's "verifiable" because it can be digitally verified as authentic. Verification essentially works the same way as it does for a physical credential. It involves the organisation who issues the credential, the credential itself, and organisation verifying the credential. [{{<figure src="/images/logo/w3c.svg" title="Verified via Cryptographic Proof" class="cta" target="_blank" height="40" width="40">}}](https://www.w3.org/TR/vc-data-model/#proofs-signatures) | {{<figure src="/images/illustrations/process.svg">}} |
+| A verifiable credential is obtained, stored and validated using a computer or smartphone. It's "verifiable" because it can be digitally verified as authentic. Verification essentially works the same way as it does for a physical credential. It involves the organisation which issues the credential, the credential itself, and typically an organisation needing to verify the credential, without having to go back and check with the issuer every time. [{{<figure src="/images/logo/w3c.svg" title="Verified via Cryptographic Proof" class="cta" target="_blank" height="40" width="40">}}](https://www.w3.org/TR/vc-data-model/#proofs-signatures) | {{<figure src="/images/illustrations/process.svg">}} |
 
 ## An Industry Standard
 |  |  |
