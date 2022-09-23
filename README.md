@@ -15,7 +15,7 @@ There's bare clone of this repository on the production server, with a ``post-re
 Add it as a remote:
 
 ```
-git remote add production USERNAME@coopcreds:coopcreds.com.git
+git remote add production root@coopcreds.com:coopcreds.com.git
 git ls-remote ## to verify it's added
 ```
 
