@@ -24,7 +24,6 @@ $sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $white;
 
 // Bootstrap
-@import 'bootstrap-variables';
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
 // @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
