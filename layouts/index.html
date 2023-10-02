@@ -3,7 +3,7 @@
 {{ define "main" }}
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
+    <div class="row justify-content-start align-items-center">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ .Content }}
         {{ if .Site.Params.homepage.show_contact_box }}
@@ -12,7 +12,7 @@
       </div>
       {{ if .Params.intro_image }}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ .Title }} class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}" src="{{ .Params.intro_image | relURL }}" />
+        <img alt={{ .Title }} class="intro-image{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}" src="{{ .Params.intro_image | relURL }}" />
       </div>
       {{ end }}
     </div>
@@ -24,7 +24,7 @@
     <div class="row justify-content-center">
       {{ $featured := where .Pages ".Params.featured" true }}
       {{ range first 6 (sort $featured ".Params.weight") }}
-        <div class="col-12 col-md-4 mb-1">
+        <div class="col-12 col-md-4 mb-5">
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           <p>{{ .Params.description }}</p>
         </div>

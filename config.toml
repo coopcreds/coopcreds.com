@@ -15,7 +15,6 @@ theme = "hugo-serif-theme"
   title = 'Co-op Credentials'
   google_analytics_id = ""
   google_tag_manager_id = ""
-  banner = 'Help us shape the future of Cooperative Credentials!&nbsp;<a href="https://community.coopcreds.com">We are working openly in our community</a>&nbsp;to define our next steps, join and participate every step of the way.'
 
   [params.homepage]
     show_contact_box = true # show / hide the contaxt box on the homepage
@@ -42,29 +41,9 @@ theme = "hugo-serif-theme"
   # Main Menu
 
   [[menu.main]]
-    name = "The Problems"
-    url = "/the-problems/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Our Solution"
-    url = "/our-solution/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Our Work Plan"
-    url = "/our-work-plan/"
-    weight = 3
-
-  [[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 5
-
-  [[menu.main]]
-    name = "Forum"
-    url = "https://community.coopcreds.com"
-    weight = 6
 
   # Footer Menu
   [[menu.footer]]
@@ -73,26 +52,6 @@ theme = "hugo-serif-theme"
     weight = 1
 
   [[menu.footer]]
-    name = "The Problems"
-    url = "/the-problems/"
-    weight = 2
-
-  [[menu.footer]]
-    name = "Our Solution"
-    url = "/our-solution/"
-    weight = 3
-
-  [[menu.footer]]
-    name = "Our Work Plan"
-    url = "/our-work-plan/"
-    weight = 4
-
-  [[menu.footer]]
     name = "Contact"
     url = "/contact/"
     weight = 6
-
-  [[menu.footer]]
-    name = "Forum"
-    url = "https://community.coopcreds.com"
-    weight = 7

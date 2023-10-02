@@ -1,8 +1,8 @@
 ---
 title: "Ecosystem Models"
 date: 2021-09-26T12:33:46+10:00
-draft: false
-featured: true
+draft: true
+featured: false
 description: Short summaries of proposed models for the Co-operative Credentials Ecosystem.
 weight: 6
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Our Work Plan"
 date: 2021-09-26T12:33:46+10:00
-draft: false
+draft: true
 featured: true
 description: An overview of our work plan for the next year, and how you can get involved at each phase of the work.
 weight: 3

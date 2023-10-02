@@ -1,8 +1,8 @@
 ---
 title: "The Problems"
 date: 2021-09-26T12:33:46+10:00
-draft: false
-featured: true
+draft: true
+featured: false
 description: An overview of the problems we're trying to address, drawing from the experiences of FairBnB.coop, Resonate and Pavilion.
 weight: 1
 ---

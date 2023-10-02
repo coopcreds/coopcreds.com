@@ -1,11 +1,12 @@
 ---
 title: "Our Solution"
 description: "Explaining our solution: Co-op Credentials."
-featured: true
+featured: false
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 description: Our solution to the problems we've identified. A common co-operative membership implemented through Verifiable Credentials.
 weight: 2
+draft: true
 ---
 
 In response to the three interconnected problems described in [Problems We're Tackling](/the-problems), FairBnB.coop, Resonate and Pavilion are working on Co-operative Credentials, a [Verifiable Credentials](/verifiable-credentials) backed common co-operative membership. We think that the verifiable credentials standard holds to the key to realising Co-operative Principle 6, specifically: reducing KYC costs within and between co-operatives, increasing cross-selling between co-operatives and supporting de-centralised identity management.
